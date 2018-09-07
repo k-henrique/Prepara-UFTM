@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35044D8F2142E5EE00066380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35044D8E2142E5EE00066380 /* AppDelegate.swift */; };
+		35044D912142E5EE00066380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35044D902142E5EE00066380 /* ViewController.swift */; };
+		35044D942142E5EE00066380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35044D922142E5EE00066380 /* Main.storyboard */; };
+		35044D962142E5F000066380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35044D952142E5F000066380 /* Assets.xcassets */; };
+		35044D992142E5F000066380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35044D972142E5F000066380 /* LaunchScreen.storyboard */; };
+		35044DA42142E5F100066380 /* Prepara_UFTMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35044DA32142E5F100066380 /* Prepara_UFTMTests.swift */; };
+		35044DAF2142E5F100066380 /* Prepara_UFTMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35044DAE2142E5F100066380 /* Prepara_UFTMUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35044DA02142E5F100066380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35044D832142E5EE00066380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35044D8A2142E5EE00066380;
+			remoteInfo = "Prepara UFTM";
+		};
+		35044DAB2142E5F100066380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35044D832142E5EE00066380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35044D8A2142E5EE00066380;
+			remoteInfo = "Prepara UFTM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35044D8B2142E5EE00066380 /* Prepara UFTM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prepara UFTM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35044D8E2142E5EE00066380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35044D902142E5EE00066380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35044D932142E5EE00066380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35044D952142E5F000066380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35044D982142E5F000066380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35044D9A2142E5F000066380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35044D9F2142E5F100066380 /* Prepara UFTMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prepara UFTMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35044DA32142E5F100066380 /* Prepara_UFTMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prepara_UFTMTests.swift; sourceTree = "<group>"; };
+		35044DA52142E5F100066380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35044DAA2142E5F100066380 /* Prepara UFTMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prepara UFTMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35044DAE2142E5F100066380 /* Prepara_UFTMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prepara_UFTMUITests.swift; sourceTree = "<group>"; };
+		35044DB02142E5F100066380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35044D882142E5EE00066380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35044D9C2142E5F100066380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35044DA72142E5F100066380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35044D822142E5EE00066380 = {
+			isa = PBXGroup;
+			children = (
+				35044D8D2142E5EE00066380 /* Prepara UFTM */,
+				35044DA22142E5F100066380 /* Prepara UFTMTests */,
+				35044DAD2142E5F100066380 /* Prepara UFTMUITests */,
+				35044D8C2142E5EE00066380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35044D8C2142E5EE00066380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35044D8B2142E5EE00066380 /* Prepara UFTM.app */,
+				35044D9F2142E5F100066380 /* Prepara UFTMTests.xctest */,
+				35044DAA2142E5F100066380 /* Prepara UFTMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35044D8D2142E5EE00066380 /* Prepara UFTM */ = {
+			isa = PBXGroup;
+			children = (
+				35044D8E2142E5EE00066380 /* AppDelegate.swift */,
+				35044D902142E5EE00066380 /* ViewController.swift */,
+				35044D922142E5EE00066380 /* Main.storyboard */,
+				35044D952142E5F000066380 /* Assets.xcassets */,
+				35044D972142E5F000066380 /* LaunchScreen.storyboard */,
+				35044D9A2142E5F000066380 /* Info.plist */,
+			);
+			path = "Prepara UFTM";
+			sourceTree = "<group>";
+		};
+		35044DA22142E5F100066380 /* Prepara UFTMTests */ = {
+			isa = PBXGroup;
+			children = (
+				35044DA32142E5F100066380 /* Prepara_UFTMTests.swift */,
+				35044DA52142E5F100066380 /* Info.plist */,
+			);
+			path = "Prepara UFTMTests";
+			sourceTree = "<group>";
+		};
+		35044DAD2142E5F100066380 /* Prepara UFTMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35044DAE2142E5F100066380 /* Prepara_UFTMUITests.swift */,
+				35044DB02142E5F100066380 /* Info.plist */,
+			);
+			path = "Prepara UFTMUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35044D8A2142E5EE00066380 /* Prepara UFTM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35044DB32142E5F100066380 /* Build configuration list for PBXNativeTarget "Prepara UFTM" */;
+			buildPhases = (
+				35044D872142E5EE00066380 /* Sources */,
+				35044D882142E5EE00066380 /* Frameworks */,
+				35044D892142E5EE00066380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prepara UFTM";
+			productName = "Prepara UFTM";
+			productReference = 35044D8B2142E5EE00066380 /* Prepara UFTM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35044D9E2142E5F100066380 /* Prepara UFTMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35044DB62142E5F100066380 /* Build configuration list for PBXNativeTarget "Prepara UFTMTests" */;
+			buildPhases = (
+				35044D9B2142E5F100066380 /* Sources */,
+				35044D9C2142E5F100066380 /* Frameworks */,
+				35044D9D2142E5F100066380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35044DA12142E5F100066380 /* PBXTargetDependency */,
+			);
+			name = "Prepara UFTMTests";
+			productName = "Prepara UFTMTests";
+			productReference = 35044D9F2142E5F100066380 /* Prepara UFTMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35044DA92142E5F100066380 /* Prepara UFTMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35044DB92142E5F100066380 /* Build configuration list for PBXNativeTarget "Prepara UFTMUITests" */;
+			buildPhases = (
+				35044DA62142E5F100066380 /* Sources */,
+				35044DA72142E5F100066380 /* Frameworks */,
+				35044DA82142E5F100066380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35044DAC2142E5F100066380 /* PBXTargetDependency */,
+			);
+			name = "Prepara UFTMUITests";
+			productName = "Prepara UFTMUITests";
+			productReference = 35044DAA2142E5F100066380 /* Prepara UFTMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35044D832142E5EE00066380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Karina de Oliveira Henrique";
+				TargetAttributes = {
+					35044D8A2142E5EE00066380 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					35044D9E2142E5F100066380 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 35044D8A2142E5EE00066380;
+					};
+					35044DA92142E5F100066380 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 35044D8A2142E5EE00066380;
+					};
+				};
+			};
+			buildConfigurationList = 35044D862142E5EE00066380 /* Build configuration list for PBXProject "Prepara UFTM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35044D822142E5EE00066380;
+			productRefGroup = 35044D8C2142E5EE00066380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35044D8A2142E5EE00066380 /* Prepara UFTM */,
+				35044D9E2142E5F100066380 /* Prepara UFTMTests */,
+				35044DA92142E5F100066380 /* Prepara UFTMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35044D892142E5EE00066380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35044D992142E5F000066380 /* LaunchScreen.storyboard in Resources */,
+				35044D962142E5F000066380 /* Assets.xcassets in Resources */,
+				35044D942142E5EE00066380 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35044D9D2142E5F100066380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35044DA82142E5F100066380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35044D872142E5EE00066380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35044D912142E5EE00066380 /* ViewController.swift in Sources */,
+				35044D8F2142E5EE00066380 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35044D9B2142E5F100066380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35044DA42142E5F100066380 /* Prepara_UFTMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35044DA62142E5F100066380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35044DAF2142E5F100066380 /* Prepara_UFTMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35044DA12142E5F100066380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35044D8A2142E5EE00066380 /* Prepara UFTM */;
+			targetProxy = 35044DA02142E5F100066380 /* PBXContainerItemProxy */;
+		};
+		35044DAC2142E5F100066380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35044D8A2142E5EE00066380 /* Prepara UFTM */;
+			targetProxy = 35044DAB2142E5F100066380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35044D922142E5EE00066380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35044D932142E5EE00066380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35044D972142E5F000066380 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35044D982142E5F000066380 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35044DB12142E5F100066380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35044DB22142E5F100066380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35044DB42142E5F100066380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prepara UFTM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "karina-henrique.Prepara-UFTM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35044DB52142E5F100066380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prepara UFTM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "karina-henrique.Prepara-UFTM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35044DB72142E5F100066380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prepara UFTMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "karina-henrique.Prepara-UFTMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prepara UFTM.app/Prepara UFTM";
+			};
+			name = Debug;
+		};
+		35044DB82142E5F100066380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prepara UFTMTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "karina-henrique.Prepara-UFTMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prepara UFTM.app/Prepara UFTM";
+			};
+			name = Release;
+		};
+		35044DBA2142E5F100066380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prepara UFTMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "karina-henrique.Prepara-UFTMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prepara UFTM";
+			};
+			name = Debug;
+		};
+		35044DBB2142E5F100066380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prepara UFTMUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "karina-henrique.Prepara-UFTMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prepara UFTM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35044D862142E5EE00066380 /* Build configuration list for PBXProject "Prepara UFTM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35044DB12142E5F100066380 /* Debug */,
+				35044DB22142E5F100066380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35044DB32142E5F100066380 /* Build configuration list for PBXNativeTarget "Prepara UFTM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35044DB42142E5F100066380 /* Debug */,
+				35044DB52142E5F100066380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35044DB62142E5F100066380 /* Build configuration list for PBXNativeTarget "Prepara UFTMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35044DB72142E5F100066380 /* Debug */,
+				35044DB82142E5F100066380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35044DB92142E5F100066380 /* Build configuration list for PBXNativeTarget "Prepara UFTMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35044DBA2142E5F100066380 /* Debug */,
+				35044DBB2142E5F100066380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35044D832142E5EE00066380 /* Project object */;
+}
