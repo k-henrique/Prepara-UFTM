@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		35044D8F2142E5EE00066380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35044D8E2142E5EE00066380 /* AppDelegate.swift */; };
-		35044D912142E5EE00066380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35044D902142E5EE00066380 /* ViewController.swift */; };
 		35044D942142E5EE00066380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35044D922142E5EE00066380 /* Main.storyboard */; };
 		35044D962142E5F000066380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35044D952142E5F000066380 /* Assets.xcassets */; };
 		35044D992142E5F000066380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35044D972142E5F000066380 /* LaunchScreen.storyboard */; };
 		35044DA42142E5F100066380 /* Prepara_UFTMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35044DA32142E5F100066380 /* Prepara_UFTMTests.swift */; };
 		35044DAF2142E5F100066380 /* Prepara_UFTMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35044DAE2142E5F100066380 /* Prepara_UFTMUITests.swift */; };
+		3568E5042142E89300EF2652 /* AulasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3568E5032142E89300EF2652 /* AulasTableViewController.swift */; };
+		3568E5062142E99E00EF2652 /* AulaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3568E5052142E99E00EF2652 /* AulaTableViewCell.swift */; };
+		3568E50C2143043E00EF2652 /* AulaDetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3568E50B2143043E00EF2652 /* AulaDetalhesViewController.swift */; };
+		3568E51121433D8000EF2652 /* Aula.m in Sources */ = {isa = PBXBuildFile; fileRef = 3568E51021433D8000EF2652 /* Aula.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		35044D8B2142E5EE00066380 /* Prepara UFTM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prepara UFTM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35044D8E2142E5EE00066380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35044D902142E5EE00066380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		35044D932142E5EE00066380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35044D952142E5F000066380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35044D982142E5F000066380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,12 @@
 		35044DAA2142E5F100066380 /* Prepara UFTMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prepara UFTMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35044DAE2142E5F100066380 /* Prepara_UFTMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prepara_UFTMUITests.swift; sourceTree = "<group>"; };
 		35044DB02142E5F100066380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3568E5032142E89300EF2652 /* AulasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulasTableViewController.swift; sourceTree = "<group>"; };
+		3568E5052142E99E00EF2652 /* AulaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaTableViewCell.swift; sourceTree = "<group>"; };
+		3568E5072143040F00EF2652 /* Prepara UFTM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prepara UFTM-Bridging-Header.h"; sourceTree = "<group>"; };
+		3568E50B2143043E00EF2652 /* AulaDetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AulaDetalhesViewController.swift; sourceTree = "<group>"; };
+		3568E50F21433D8000EF2652 /* Aula.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Aula.h; sourceTree = "<group>"; };
+		3568E51021433D8000EF2652 /* Aula.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aula.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +85,8 @@
 		35044D822142E5EE00066380 = {
 			isa = PBXGroup;
 			children = (
-				35044D8D2142E5EE00066380 /* Prepara UFTM */,
-				35044DA22142E5F100066380 /* Prepara UFTMTests */,
-				35044DAD2142E5F100066380 /* Prepara UFTMUITests */,
 				35044D8C2142E5EE00066380 /* Products */,
+				35044D8D2142E5EE00066380 /* Prepara UFTM */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +103,16 @@
 		35044D8D2142E5EE00066380 /* Prepara UFTM */ = {
 			isa = PBXGroup;
 			children = (
-				35044D8E2142E5EE00066380 /* AppDelegate.swift */,
-				35044D902142E5EE00066380 /* ViewController.swift */,
-				35044D922142E5EE00066380 /* Main.storyboard */,
-				35044D952142E5F000066380 /* Assets.xcassets */,
-				35044D972142E5F000066380 /* LaunchScreen.storyboard */,
+				3568E50D214309BD00EF2652 /* Supporting */,
+				3568E5072143040F00EF2652 /* Prepara UFTM-Bridging-Header.h */,
 				35044D9A2142E5F000066380 /* Info.plist */,
+				3568E5032142E89300EF2652 /* AulasTableViewController.swift */,
+				3568E5052142E99E00EF2652 /* AulaTableViewCell.swift */,
+				3568E50B2143043E00EF2652 /* AulaDetalhesViewController.swift */,
+				35044D922142E5EE00066380 /* Main.storyboard */,
+				35044D972142E5F000066380 /* LaunchScreen.storyboard */,
+				3568E50F21433D8000EF2652 /* Aula.h */,
+				3568E51021433D8000EF2652 /* Aula.m */,
 			);
 			path = "Prepara UFTM";
 			sourceTree = "<group>";
@@ -123,6 +133,17 @@
 				35044DB02142E5F100066380 /* Info.plist */,
 			);
 			path = "Prepara UFTMUITests";
+			sourceTree = "<group>";
+		};
+		3568E50D214309BD00EF2652 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				35044D8E2142E5EE00066380 /* AppDelegate.swift */,
+				35044D952142E5F000066380 /* Assets.xcassets */,
+				35044DAD2142E5F100066380 /* Prepara UFTMUITests */,
+				35044DA22142E5F100066380 /* Prepara UFTMTests */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +214,7 @@
 				TargetAttributes = {
 					35044D8A2142E5EE00066380 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					35044D9E2142E5F100066380 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -256,7 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35044D912142E5EE00066380 /* ViewController.swift in Sources */,
+				3568E51121433D8000EF2652 /* Aula.m in Sources */,
+				3568E5062142E99E00EF2652 /* AulaTableViewCell.swift in Sources */,
+				3568E5042142E89300EF2652 /* AulasTableViewController.swift in Sources */,
+				3568E50C2143043E00EF2652 /* AulaDetalhesViewController.swift in Sources */,
 				35044D8F2142E5EE00066380 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +455,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Prepara UFTM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -438,6 +465,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "karina-henrique.Prepara-UFTM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Prepara UFTM/Prepara UFTM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +476,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Prepara UFTM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +486,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "karina-henrique.Prepara-UFTM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Prepara UFTM/Prepara UFTM-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
